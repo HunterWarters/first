@@ -1,0 +1,84 @@
+*{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body, html {
+  height: 100%; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: grey; 
+
+}
+
+.quiz-container {
+
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(wally.jpg);
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: blue;
+  border: 2px solid black;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+}
+
+.question {
+  color: black;
+  padding-top: 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+
+}
+
+.options {
+  color: white  ;
+  list-style-type: none;
+  padding: 0;
+}
+
+.options{
+  text-align: left;
+  margin: 10px 0;
+}
+
+button {
+  border-radius: 20px;
+  color: black;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: grey;
+}
+.prev{
+  color: black;
+  float: left;
+  padding-top: 200px;
+  padding: 10px 20px;
+  background-color: grey;
+  color: whitesmoke;
+  border-radius: 50px;
+  cursor:pointer
+  
+}
+.submit {
+  float: right;
+  padding-top: 200px;
+  padding: 10px 20px;
+  background-color: grey;
+  color: whitesmoke;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit:hover{
+   box-shadow:  0 15px 5px grey(grey); 
+  background-color: grey; 
+}
+
+
